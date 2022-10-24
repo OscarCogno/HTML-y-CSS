@@ -1,0 +1,41 @@
+#titulo {
+    color: greenyellow;
+}
+
+.encabezado {
+    text-align: center;
+}
+
+#elemento-1 {
+    color: red;
+    background-color: rgb(224, 224, 233);
+    width: 130px;
+}
+
+.tamanio{
+    font-size: 2rem;
+}
+
+#elemento-2 {
+    color: blueviolet;
+    background-color: rgb(48, 102, 102);
+    width: 130px;
+}
+
+#elemento-3 {
+    color: grey;
+    background-color: black;
+    width: 130px;
+}
+
+#elemento-4 {
+    color: brown;
+    background-color: cadetblue;
+    width: 130px;
+}
+
+#elemento-5 {
+    color: rgb(68, 20, 20);
+    background-color: rgb(3, 89, 92);
+    width: 130px;
+}
