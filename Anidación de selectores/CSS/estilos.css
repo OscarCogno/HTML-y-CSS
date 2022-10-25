@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button{
+    padding: 2.5rem 7rem;
+    border: 0.1rem solid black;
+    border-radius: .3rem;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+button::before{
+    content: "Pasa por encima";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: .2s ease;
+} 
+
+button::after{
+    content: "¡Hecho!";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: .2s ease;
+} 
+button:hover::before{
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+button:hover::after{
+    transform: translate(-50%,-50%);
+    opacity: 1;
+}
+    
+ button:hover{
+    color:white;
+    background-color: green;
+ }
