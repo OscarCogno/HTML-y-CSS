@@ -1,0 +1,16 @@
+.fotos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    width: 100vw;
+    justify-content: center;
+}
+
+.fotos-img{
+    width: 300px;
+}
+
+.fotos-img:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}
